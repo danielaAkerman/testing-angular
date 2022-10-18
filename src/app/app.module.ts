@@ -7,6 +7,8 @@ import { ButtonsComponent } from './layout/buttons/buttons.component';
 import { LisaComponent } from './layout/lisa/lisa.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { LandingComponent } from './pages/landing/landing.component';
+import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,11 +17,13 @@ import { LandingComponent } from './pages/landing/landing.component';
     ButtonsComponent,
     LisaComponent,
     FooterComponent,
-    LandingComponent
+    LandingComponent,
+    QuienesSomosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModuleTsModule
+    AppRoutingModuleTsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

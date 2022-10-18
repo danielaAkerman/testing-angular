@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  
+  "team": [
+    {
+      "id": 1,
+      "name": "Lucy",
+      "perfil": "Una bebita"
+    },
+    {
+      "id": 2,
+      "name": "Madre",
+      "perfil": "Una tipaza"
+    },
+    {
+      "id": 3,
+      "name": "Daniela",
+      "perfil": "La dama"
+    }
+  ]
+}
